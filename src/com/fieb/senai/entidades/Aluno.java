@@ -3,19 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package senai;
+package com.fieb.senai.entidades;
 
 /**
  *
  * @author Aluno
  */
-public class Senai {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class Aluno extends Pessoa{
+    
+    public Aluno(String nome, Integer matricula, Integer idade) {
+        super(nome, matricula, idade);
     }
     
 }
